@@ -1,10 +1,12 @@
 //Write a function called 'welcome' that takes in a name (say Tyler), and then returns 'Welcome, Tyler' (or whatever the name was).
 
-  //Function definition here
+ function welcome(name) {
+  alert("Welcome, " +name)
+ }
 
 
-  //Call the function here
-
+  //Call the herefunction 
+welcome('Tyler');
 
 /* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
 
@@ -13,11 +15,13 @@
 //Write a function called 'multiply' that takes in two numbers, multiplies them together, and returns the result
 
   //Function definition here
-
+function Multiply (x, y) {
+    return (x * y);
+}
 
   //Call the function here
 
-
+var mul = Multiply (2, 3);
 
 /* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
 

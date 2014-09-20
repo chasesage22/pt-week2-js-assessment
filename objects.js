@@ -1,7 +1,12 @@
 //Create a function called User which has the following properties
 //username, email, password, birthday
 
-  //code here
+var User = {
+	username: "chase";
+	email: "chae@gmail.com";
+	password: "123";
+	birthday: "may23"
+}
 
 
 //edit the username to be 'js_slinger'
