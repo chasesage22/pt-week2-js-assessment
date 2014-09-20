@@ -2,26 +2,26 @@
 //username, email, password, birthday
 
 var User = {
-	username: "chase";
-	email: "chae@gmail.com";
-	password: "123";
+	username: "chase",
+	email: "chae@gmail.com",
+	password: "123",
 	birthday: "may23"
 }
 
 
 //edit the username to be 'js_slinger'
   
-  //code here
+user.username = "js_slinger";
 
 
 //Add a property of favoriteBook and set it to 'Mike Tyson learns to Whistle'
 
-  // code here
+user.favoriteBook = "Mike Tyson Learns to Whistle";
 
 
 //Remove the password property from your object
   
-  // code here
+delete user.password;
 
 
 //Create an array called 'values'. Loop through your object and push every value

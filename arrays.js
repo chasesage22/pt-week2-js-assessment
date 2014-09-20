@@ -24,7 +24,7 @@ if (family === 'Tyler'){
 
 // Remove the second oldest member of your family
 
-
+family.splice(1,1)
 
 
 
