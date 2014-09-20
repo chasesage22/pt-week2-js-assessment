@@ -1,4 +1,8 @@
 //Make the following function calls work
+  var giveItName = function(nam, cb){
+  	cb(nam);
+  };
+
   giveItName('name', function(){
     alert('Your name is ' + name);
   });
