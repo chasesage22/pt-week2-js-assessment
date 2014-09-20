@@ -1,12 +1,10 @@
 //Write a function called 'welcome' that takes in a name (say Tyler), and then returns 'Welcome, Tyler' (or whatever the name was).
 
- function welcome(name) {
-  alert("Welcome, " +name)
- }
+var person = prompt("Please enter your name")
 
 
   //Call the herefunction 
-welcome('Tyler');
+alert("Welcome" + ' ' + person);
 
 /* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
 
@@ -37,9 +35,20 @@ var mul = Multiply (2, 3);
     obj.evens ----> [2,4,6];
     obj.odds ----> [1,3,5]
 */
-  
-  
+  var arr = [1,2,3,4,5,6];
 
+for(var i = arr.length -1; i >= 0; i--) {
+    if (arr[i] % 2 !== 0) 
+        arr.splice(i, 1)    
+  }
+
+var arr = [1,2,3,4,5,6];
+
+for(var i = arr.length -1; i >= 0; i--) {
+    if (arr[i] % 2 === 0) 
+        arr.splice(i, 1)    
+  }
+  
 /* we have an i5 processor and are currious as to what cores are needed when we are playing Minecraft.
 
 write a function that can take in an array of objects and output the ammount of total processor output by all cores that are in use */
