@@ -29,3 +29,15 @@ delete user.password;
 //an array that looks similar to ['js_slinger', 'tm@gmail.com', '5/2/1990'];
 
   // code here 
+
+  var values = {
+  	username: "chase",
+	email: "chae@gmail.com",
+	password: "123",
+	birthday: "may23"
+  }
+
+ for(var key in values){
+ 		alert(values[key]);
+ 	}
+ }
